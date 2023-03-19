@@ -15,8 +15,8 @@ go run monitor/monitor.go
 
 ## build for macOS 
 
-CGO_ENABLED=**0** GOOS=darwin GOARCH=amd64 go build client.go
+CGO_ENABLED=**0** GOOS=darwin GOARCH=amd64 go build monitor/monitor.go
 
 ## build for jetson
 
-CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build client.go
+CGO_ENABLED=0 GOOS=linux GOARCH=amd64 go build monitor/monitor.go
